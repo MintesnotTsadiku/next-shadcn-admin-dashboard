@@ -3,11 +3,14 @@ import { ArrowUpRight, TrendingDown, TrendingUp } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardAction, CardContent, CardDescription, CardHeader } from "@/components/ui/card";
 
+import { LastUpdated } from "./last-updated";
+
 export function KpiCards() {
   return (
     <section className="space-y-5">
       <div className="space-y-1">
         <h2 className="text-3xl tracking-tight">Pipeline Overview</h2>
+        <LastUpdated />
         <p className="text-muted-foreground text-sm">
           Keep tabs on lead quality, open opportunities, and conversion rates across the current sales cycle.
         </p>
