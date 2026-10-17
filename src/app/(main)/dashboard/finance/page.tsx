@@ -29,7 +29,7 @@ export default function Page() {
   return (
     <div className="flex flex-col gap-4">
       <div className="space-y-1">
-        <h1 className="text-3xl tracking-tight">Personal Finances</h1>
+        <h1 className="text-3xl tracking-tight">Finance Overview</h1>
         <p className="text-muted-foreground text-sm">{formattedDate}</p>
       </div>
 
