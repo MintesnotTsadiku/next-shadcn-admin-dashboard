@@ -15,7 +15,7 @@ import { UpcomingTransactions } from "./_components/upcoming-transactions";
 import { Wallet } from "./_components/wallet";
 
 export const metadata: Metadata = {
-  title: "Open Source Finance Dashboard with shadcn/ui",
+  title: "Finance Dashboard",
   description:
     "Explore an open source personal finance dashboard with net worth, spending, income sources, account allocation, transactions, and wallets.",
   alternates: {
